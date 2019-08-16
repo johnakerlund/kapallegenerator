@@ -6,7 +6,7 @@ function generator(){
 
 var second =["Bögen","Röven","Mackan","Kissarn","Runkaren","Fittan","Bullen","Bajsarn","Sovarn","Lover","Hivet","Aidset","Ninen",
    "Bingo","Pajsarn","Lådan","Hålet","Limbo","Skrammel","Lådda","Ölen","Sunken","Påsen","Knullet",
- "Lasse","Janne","Hasse","Bjögga","Berra","Viggo","Påsen","Snoppen","Röven","Ludret","Horan","sson" ] ;
+ "Lasse","Janne","Hasse","Bjögga","Berra","Viggo","Påsen","Snoppen","Röven","Ludret","Horan","sson"];
 
    
     var double = Math.floor(Math.random()*8);
@@ -18,7 +18,7 @@ var second =["Bögen","Röven","Mackan","Kissarn","Runkaren","Fittan","Bullen","
 	    
      if(double == 1){
 
-        var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + ""+second[Math.floor(Math.random()* second.length)];  
+       var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + ""+second[Math.floor(Math.random()* second.length)];  
     }
     else if(double == 2){
         var name = first[Math.floor(Math.random()* first.length)] + ""+ textBox;
