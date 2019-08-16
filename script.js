@@ -14,7 +14,7 @@ var names = ["Lasse","Janne","Hasse","Bjögga","Berra","Viggo"]
     console.log(double);
     if(namemath == 3 ){
 
-        var name = names[Math.floor(Math.random()* names.length)]+ first[Math.floor(Math.random()* first.length)]
+        var name = names[Math.floor(Math.random()* names.length)]+ first[Math.floor(Math.random()* first.length)];
     }
     
     else if(double == 1){
@@ -22,12 +22,12 @@ var names = ["Lasse","Janne","Hasse","Bjögga","Berra","Viggo"]
         var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + "-"+second[Math.floor(Math.random()* second.length)];  
     }
     else if(double == 2){
-        var name = first[Math.floor(Math.random()* first.length)] + "-"+ textBox
+        var name = first[Math.floor(Math.random()* first.length)] + "-"+ textBox;
      
     }
     else if (double ==7 ){
 
-        var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + "-"+ textBox
+        var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + "-"+ textBox;
     }
     else{
     var name = first[Math.floor(Math.random()* first.length)] + "-"+second[Math.floor(Math.random()* second.length)];
