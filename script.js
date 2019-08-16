@@ -12,7 +12,7 @@ var names = ["Lasse","Janne","Hasse","Bjögga","Berra","Viggo"]
     var textBox = document.getElementById('TEXTBOX_ID').value;
 
     console.log(double);
-    console.log(namemath);
+   
 	
 	if(namemath == 3 ){
 
