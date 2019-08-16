@@ -4,22 +4,18 @@ function generator(){
     ,"Sagg","Fubba","Timmer","Brall","Sprut","Kräm","Hink","Kamel","Skäggbiffs"];
 
 var second =["Bögen","Röven","Mackan","Kissarn","Runkaren","Fittan","Bullen","Bajsarn","Sovarn","Lover","Hivet","Aidset","Ninen",
-   "Bingo","Pajsarn","Lådan","Hålet","Limbo","Skrammel","Lådda","Ölen","Sunken","Påsen","Knullet"];
-var names = ["Lasse","Janne","Hasse","Bjögga","Berra","Viggo"]
-    var namemath = Math.floor(Math.random()*7)
+   "Bingo","Pajsarn","Lådan","Hålet","Limbo","Skrammel","Lådda","Ölen","Sunken","Påsen","Knullet",
+ "Lasse","Janne","Hasse","Bjögga","Berra","Viggo","Påsen","Snoppen","Röven"];
+
+   
     var double = Math.floor(Math.random()*8);
    
     var textBox = document.getElementById('TEXTBOX_ID').value;
 
     console.log(double);
    
-	
-	if(namemath == 3 ){
-
-        var name = names[Math.floor(Math.random()* names.length)]+ first[Math.floor(Math.random()* first.length)];
-    }
-    
-    else if(double == 1){
+	    
+     if(double == 1){
 
         var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + "-"+second[Math.floor(Math.random()* second.length)];  
     }
