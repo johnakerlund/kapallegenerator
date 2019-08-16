@@ -12,7 +12,9 @@ var names = ["Lasse","Janne","Hasse","Bjögga","Berra","Viggo"]
     var textBox = document.getElementById('TEXTBOX_ID').value;
 
     console.log(double);
-    if(namemath == 3 ){
+    console.log(namemath);
+	
+	if(namemath == 3 ){
 
         var name = names[Math.floor(Math.random()* names.length)]+ first[Math.floor(Math.random()* first.length)];
     }
