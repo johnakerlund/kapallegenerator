@@ -17,18 +17,18 @@ var second =["Bögen","Röven","Mackan","Kissarn","Runkaren","Fittan","Bullen","
 	    
      if(double == 1){
 
-        var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + "-"+second[Math.floor(Math.random()* second.length)];  
+        var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + ""+second[Math.floor(Math.random()* second.length)];  
     }
     else if(double == 2){
-        var name = first[Math.floor(Math.random()* first.length)] + "-"+ textBox;
+        var name = first[Math.floor(Math.random()* first.length)] + ""+ textBox;
      
     }
     else if (double ==7 ){
 
-        var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + "-"+ textBox;
+        var name = first[Math.floor(Math.random()* first.length)]+ first[Math.floor(Math.random()* first.length)] + ""+ textBox;
     }
     else{
-    var name = first[Math.floor(Math.random()* first.length)] + "-"+second[Math.floor(Math.random()* second.length)];
+    var name = first[Math.floor(Math.random()* first.length)] + ""+second[Math.floor(Math.random()* second.length)];
     }
     
 
