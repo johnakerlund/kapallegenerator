@@ -1,8 +1,7 @@
 function generator(){
     var first = ["Anal","Bög","Bajs","Kuk","Snopp","Kiss","Mini","Anus","Fitt","Bullemi","Blöj","CP","Samba",
     "Disco","Downs","Runk","Dvärg","Euro","Hiv","Mjölk","Downs","Damp","Mes","Stor","Mini","Pung"
-    ,"Sagg","Fubba","Timmer","Brall","Sprut","Kräm","Hink","Kamel","Skäggbiffs","Snus","Flens", 
-      "Slem","Skinn","Klamydia","Kondylom","Flatlus","Toa","Rännskits"];
+    ,"Sagg","Fubba","Timmer","Brall","Sprut","Kräm","Hink","Kamel","Skäggbiffs","Snus","Flens"];
 
 var second =["Bögen","Röven","Mackan","Kissarn","Runkaren","Fittan","Bullen","Bajsarn","Sovarn","Lover","Hivet","Aidset","Ninen",
    "Bingo","Pajsarn","Lådan","Hålet","Limbo","Skrammel","Lådda","Ölen","Sunken","Påsen","Knullet",
