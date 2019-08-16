@@ -1,0 +1,38 @@
+body{
+    background-color:darkgrey;
+}
+#center {
+
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+    
+    
+   
+}
+
+#placeholder{
+    background-color: ghostwhite;
+    border: 1px solid black;
+width: 300px;
+height: 40px;
+text-align: center;
+font-size: 23px;
+font-family: 'Roboto', sans-serif;
+
+    
+}
+#textbox{
+padding-bottom: 40px;
+}
+#TEXTBOX_ID{
+    width:100%;
+Height:30px;
+}
+#buton{
+    line-height: 1.5;
+    width:100%;
+}
