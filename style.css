@@ -1,14 +1,10 @@
 body{
     background-color:#1d1c19;
-      background-image: url('knas2.png') ;
-    background-repeat: no-repeat;
-        background-attachment: fixed;
-    background-position: center; 
-    background-size:cover;  
-        -o-background-size:40% auto;
--webkit-background-size:40% auto;
--moz-background-size:40% auto;
-background-size:40% auto;
+    background-image: url('knas2.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #center {
 
