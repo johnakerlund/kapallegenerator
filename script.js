@@ -1,11 +1,11 @@
 function generator(){
     var first = ["Anal","Bög","Bajs","Kuk","Snopp","Kiss","Mini","Anus","Fitt","Bullemi","Blöj","CP","Samba",
     "Disco","Downs","Runk","Dvärg","Euro","Hiv","Mjölk","Downs","Damp","Mes","Stor","Mini","Pung"
-    ,"Sagg","Fubba","Timmer","Brall","Sprut","Kräm","Hink","Kamel","Skäggbiffs","Snus","Flens"];
+    ,"Sagg","Fubba","Timmer","Brall","Sprut","Kräm","Hink","Kamel","Skäggbiffs","Snus","Flens","Bingo"];
 
 var second =["Bögen","Röven","Mackan","Kissarn","Runkaren","Fittan","Bullen","Bajsarn","Sovarn","Lover","Hivet","Aidset","Ninen",
    "Bingo","Pajsarn","Lådan","Hålet","Limbo","Skrammel","Lådda","Ölen","Sunken","Påsen","Knullet",
- "Lasse","Janne","Hasse","Bjögga","Berra","Viggo","Påsen","Snoppen","Röven","Ludret","Horan","sson"];
+ "Lasse","Janne","Hasse","Bjögga","Berra","Viggo","Påsen","Snoppen","Röven","Ludret","Horan","sson","Berra","Benny","Stolpen"];
 
    
     var double = Math.floor(Math.random()*8);
